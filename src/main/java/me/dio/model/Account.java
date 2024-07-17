@@ -16,7 +16,7 @@ public class Account{
 
     private String agency;
 
-    @Column(precision = 2, scale = 13) //Teremos 11 inteiros e 2 decimais
+    @Column(precision = 13, scale = 2) //Teremos 11 inteiros e 2 decimais
     private BigDecimal balance;
 
     @Column(name = "addictional_limit", precision = 2, scale = 13)
